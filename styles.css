@@ -11,7 +11,7 @@ body {
     margin: 20px;
 }
 
-.cityInput {
+#cityInput {
     padding: 10px;
     font-size: 2rem;
     font-weight: bold;
@@ -41,7 +41,7 @@ button[type='submit']:hover {
     padding: 50px;
     box-shadow: 2px 2px 5px black;
     border: 3px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     min-width: 300px;
     display: flex;
     flex-direction: column;
@@ -85,5 +85,5 @@ p {
 .errorDisplay {
     font-size: 2.5rem;
     font-weight: bold;
-    color: rgba(218, 44, 0, 0.747);
+    color: rgba(0, 0, 0, 0.747);
 }

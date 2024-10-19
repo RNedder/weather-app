@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgba(255, 254, 197, 0.719);
+    background-color: #f8b851;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@ body {
     padding: 10px;
     font-size: 2rem;
     font-weight: bold;
-    border: 2px solid darkorange;
+    border: 2px solid #2B2D42;
     border-radius: 10px;
     margin: 10px;
     width: 300px;
@@ -25,7 +25,7 @@ button[type='submit'] {
     padding: 10px 20px;
     font-weight: bold;
     font-size: 2rem;
-    background-color: rgb(9, 0, 133);
+    background-color: #A33B20;
     color: white;
     border: non;
     border-radius: 5px;
@@ -33,14 +33,14 @@ button[type='submit'] {
 }
 
 button[type='submit']:hover {
-    background-color: rgb(77, 67, 219);
+    background-color: #722a18;
 }
 
 .card {
-    background: linear-gradient(180deg, rgb(99, 99, 235), rgb(73, 219, 219));
+    background: linear-gradient(180deg,#30C5FF, rgb(99, 99, 235));
     padding: 50px;
-    box-shadow: 2px 2px 5px black;
-    border: 3px solid black;
+    box-shadow: 2px 2px 5px #2B2D42;
+    border: 3px solid #2B2D42;
     border-radius: 10px;
     min-width: 300px;
     display: flex;
@@ -67,19 +67,22 @@ p {
 }
 
 .humidityDisplay {
-    font-weight: bold;
+    font-size: 1.5rem;
     margin-bottom: 25px;
+    color: #2B2D42;
 }
 
 .descDisplay {
     font-style: italic;
     font-weight: bold;
     font-size: 2rem;
+    color: #2B2D42
 }
 
 .weatherEmoji {
     margin: 0;
-    font-size: 7.5rem;
+    font-size: 10rem;
+    text-shadow: 5px 5px 8px #2B2D42;
 }
 
 .errorDisplay {

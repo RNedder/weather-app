@@ -11,7 +11,7 @@ body {
     margin: 20px;
 }
 
-#cityInput {
+.cityInput {
     padding: 10px;
     font-size: 2rem;
     font-weight: bold;
